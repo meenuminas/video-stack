@@ -1,0 +1,1 @@
+export const BASEURL=`https://video-stack-upi3.onrender.com`

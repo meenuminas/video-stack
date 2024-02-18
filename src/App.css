@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Federant&family=Kalnia:wght@200&family=Merriweather+Sans:wght@300&family=Metal&family=Original+Surfer&family=Oswald&family=Pacifico&family=Shadows+Into+Light&family=Teko:wght@300&family=Whisper&display=swap');
+
+h1
+{
+font-family: 'Oswald', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+span{
+    color: rgb(25, 230, 175);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.gh{
+    font-family: 'Pacifico', cursive;
 }
+.bb{
+background-color: rgb(1, 1, 1);
+color: rgb(25, 230, 175);
+padding: 10px 20px;
+font-size:20px;
+border-radius: 30px;
+cursor: pointer;
+outline: rgb(25, 230, 175);
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+.pp{
+    font-family: 'Kalnia', serif;
+    color: rgb(25, 230, 175) ;
+    font-size: 45px;
+    
+}
+.ss{
+    font-family: 'Original Surfer', sans-serif;
+    font-weight: bold;
+    font-size:x-large;
+}
+.card-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content:space-around; /* Adjust as needed */
+ padding: 0px; 
+  margin: -2px;
+   
+}
+.hm{
+    height: 259px;
+    /* width: 100px; */
 }
 
-.App-link {
-  color: #61dafb;
+.container1 {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+  }
+  
+  .image {
+    width: 20px; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
+    margin-right: 10px; /* Optional: Add spacing between image and text */
+  }
+.mm{
+    font-family: 'Metal', serif;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container3{
+    text-align: end;
+}
+.aa{
+    margin: 0;
+}
+/* .gl{
+    margin-top: 1px;
+    margin-left: 20px;
+} */
+/* .gll{
+    margin-top: 150px;
+} */
+.ghf{
+    font-family: 'Pacifico', cursive;
+    display: flex;
+    margin-top: -46px;
+    margin-left: 86px;
+}
+.navbar{
+    height: 90px;
+}
+@media only screen and (max-width: 600px){
+    .dbd{
+        max-width: 80%;
+    }
+}
+.cate{
+    border: 2px solid rgb(20, 114, 127);
+    /* width: 100px;
+    height: 200px; */
 }
